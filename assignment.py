@@ -1,9 +1,11 @@
 #write a program thar=t converts 200 naira to dollar. assume $30 is #1
-USD = 30
-AMOUNT = 200
-NGN = AMOUNT * USD
-print(NGN)
-#Given that g(x)=2x**3-4x solve for g(7)
-X = 7
-G = 2*(X**3)-(4*X)
+NAIRA = int(input ("#"))
+USD = int(input("USD rate "))
+converted= NAIRA * USD
+print("#"+ str(converted))
+#Given that g(x)=2x**3-4x solve for g(7) 
+x = 7
+a = X**3
+b = 4*x
+G = 2*a - b
 print(G)
