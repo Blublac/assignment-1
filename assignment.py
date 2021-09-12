@@ -5,7 +5,7 @@ converted= NAIRA * USD
 print("#"+ str(converted))
 #Given that g(x)=2x**3-4x solve for g(7) 
 x = 7
-a = X**3
+a = x**3
 b = 4*x
 G = 2*a - b
 print(G)
